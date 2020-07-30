@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My_Portfolio</title>
+
+{% load static %}
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+</head>
+<body id="text">
+
+	<section id="s1" class="s1">
+		<div class="main-container">
+			<div class="greeting-wrapper">
+				<h1>Hi, I'm Sangmeshwar karanjkar</h1>
+			</div>
+
+
+			<div id="intro" class="intro-wrapper">
+				<div id="nav" class="nav-wrapper">
+
+
+					<a>
+						<div class="dots-wrapper">
+							<div id="dot-1" class="browser-dot"></div>
+							<div id="dot-2" class="browser-dot"></div>
+							<div id="dot-3" class="browser-dot"></div>
+						</div>
+					</a>
+
+
+					<ul id="navigation">
+						<li><p id="time"></P><p id="welcome"></p></li>
+
+					</ul>
+				</div>
+
+				<div class="left-column">
+					<img id="profile_pic" src="sangam.jpg">
+					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+
+					<div id="theme-options-wrapper">
+						<div data-mode="light" onclick="light()" id="light-mode" class="theme-dot"></div>
+						<div data-mode="blue" onclick="blue()" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="green" onclick="green()" id="green-mode" class="theme-dot"></div>
+						<div data-mode="purple" onclick="purple()" id="purple-mode" class="theme-dot"></div>
+					</div>
+
+				</div>
+
+				<div class="right-column">
+
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="corner-tl" class="corner"></div>
+							<div id="corner-tr" class="corner"></div>
+							<h3>What I Do</h3>
+							<p>I am a Python and Web Developer, Now i am working on Django framework .</p>
+							<div id="corner-br" class="corner"></div>
+							<div id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="s2" class="s2">
+		<div class="main-container">
+
+			<div class="about-wrapper">
+				<div class="about-me">
+					<h4>More about me</h4>
+
+					<p>I am graduated in Electronic and telecommunication Engineering.</p>
+
+					<p>While I am good at software , also I have good knowledge of Electronics hardware and systems.I have personal skills to Observe-Adapt-Process.</p>
+
+
+					<hr>
+
+					<h4>TOP EXPERTISE</h4>
+
+					<p>Python Developer and Fullstack web developer with primary focus on Django:<a target="_blank" href="Resume.pdf">Download Resume</a> </p>
+
+					<div id="skills">
+						<ul>
+							<li>Python</li>
+							<li>Django</li>
+							<li>JavaScript</li>
+							<li>Numpy</li>
+							<li>Pandas</li>
+						</ul>
+
+						<ul>
+							<li>Web Developer</li>
+							<li>Embedded syatem</li>
+							<li>PCB desining</li>
+							<li>IOT</li>
+							<li>HTML/CSS</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+
+				<div class="social-links">
+					<img id="social_img" src=>
+					<h3>Find me on Linkedin & Github</h3>
+
+					<a target="_blank" href="https://www.linkedin.com/in/sangmeshwar-karanjkar-29a456191/">Linkedin: Sangmeshwar karanjkar</a>
+					<br>
+					<a target="_blank" href="https://github.com/sangamkaranjkar/my_portfolio.git">Github: sangam_karanjkar</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="ss1" class="s1">
+		<div class="main-container">
+			<h3 style="text-align: center;">Some of my past projects</h3>
+
+			<div class="post-wrapper">
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="website.jfif">
+						<div class="post-preview">
+							<h6 class="post-title">Practice Website 'Argonaut'</h6>
+							<p class="post-intro">I build this Practice website using HTML and CSS before My_Portfolio Website. </p>
+							<a href="http://WWW.argonaut.ml/">Visit Website</a>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="tik.png">
+						<div class="post-preview">
+							<h6 class="post-title">Tic tac toe Game</h6>
+							<p class="post-intro">I make tic tac toe game in Python.I use python programming language to make this game.</p>
+							<a href=>Read More</a>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="post">
+						<img class="thumbnail" src="face.jfif">
+						<div class="post-preview">
+							<h6 class="post-title">AI Face Detection</h6>
+							<p class="post-intro">Now I am learning Data science and AI technology After that my frist project will be AI Face Detection.</p>
+							<a href=>Coming Soon</a>
+ 						</div>
+ 					</div>
+ 				</div>
+
+ 			</div>
+		</div>
+ 	</section>
+
+ 	<section id="ss2" class="s2">
+	 	<div class="main-container">
+  			<a href=""></a>
+ 			<h3 style="text-align: center;">Get In Touch</h3>
+
+ 			<form id="contact-form">
+
+
+ 				<label>Name</label>
+ 				<input class="input-field" type="text" name="name">
+
+ 				<label>Subject</label>
+ 				<input class="input-field" type="text" name="subject">
+
+				<label>Email</label>
+ 				<input class="input-field" type="text" name="email">
+
+ 				<label>Message</label>
+ 				<textarea class="input-field" name="message"></textarea>
+
+ 				<input id="submit-btn" type="submit" value="Send">
+ 			</form>
+ 		</div>
+ 	</section>
+
+<script src="ja.js"></script>
+
+</body>
+</html>
